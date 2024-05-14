@@ -96,40 +96,42 @@
       <h1 class="text-center mb-5">Gallery</h1>
       <div class="gallery">
           <div class="card">
-              <img src="../images/gallery 1.jpeg" class="card-img-top" alt="Image 1">
+            <img src="../images/gallery 1.jpeg" onclick="openImagePopup('../images/gallery 1.jpeg')" alt="Image">
+
           </div>
           <div class="card">
-              <img src="../images/gallery 2.jpeg" class="card-img-top" alt="Image 11">
+            <img src="../images/gallery 2.jpeg" onclick="openImagePopup('../images/gallery 2.jpeg')" alt="Image">
+
           </div>
           <div class="card">
-              <img src="../images/gallery 3.jpeg" class="card-img-top" alt="Image 12">
+            <img src="../images/gallery 3.jpeg" onclick="openImagePopup('../images/gallery 3.jpeg')" alt="Image">
           </div>
           <div class="card">
-              <img src="../images/gallery 4.jpeg" class="card-img-top" alt="Image 13">
+            <img src="../images/gallery 4.jpeg" onclick="openImagePopup('../images/gallery 4.jpeg')" alt="Image">
           </div>  
           <div class="card">
-              <img src="../images/gallery 5.jpeg" class="card-img-top" alt="Image 16">
+            <img src="../images/gallery 5.jpeg" onclick="openImagePopup('../images/gallery 5.jpeg')" alt="Image">
           </div>
           <div class="card">
-              <img src="../images/gallery 6.jpeg" class="card-img-top" alt="Image 2">
+            <img src="../images/gallery 6.jpeg" onclick="openImagePopup('../images/gallery 6.jpeg')" alt="Image">
           </div>
           <div class="card">
-              <img src="../images/gallery 7.jpeg" class="card-img-top" alt="Image 15">
+            <img src="../images/gallery 7.jpeg" onclick="openImagePopup('../images/gallery 7.jpeg')" alt="Image">
           </div>
           <div class="card">
-              <img src="../images/gallery 8.jpeg" class="card-img-top" alt="Image 3">
+            <img src="../images/gallery 8.jpeg" onclick="openImagePopup('../images/gallery 8.jpeg')" alt="Image">
           </div>
           <div class="card">
-              <img src="../images/gallery 9.jpeg" class="card-img-top" alt="Image 4">
+            <img src="../images/gallery 9.jpeg" onclick="openImagePopup('../images/gallery 9.jpeg')" alt="Image">
           </div>
           <div class="card">
-              <img src="../images/gallery 10.jpeg" class="card-img-top" alt="Image 14">
+            <img src="../images/gallery 10.jpeg" onclick="openImagePopup('../images/gallery 10.jpeg')" alt="Image">
           </div>
           <div class="card">
-              <img src="../images/gallery 11.jpeg" class="card-img-top" alt="Image 5">
+            <img src="../images/gallery 11.jpeg" onclick="openImagePopup('../images/gallery 11.jpeg')" alt="Image">
           </div>
           <div class="card">
-              <img src="../images/gallery 12.jpeg" class="card-img-top" alt="Image 6">
+            <img src="../images/gallery 12.jpeg" onclick="openImagePopup('../images/gallery 12.jpeg')" alt="Image">
           </div>
       </div>
   </div>
@@ -235,6 +237,13 @@
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
+      
     ></script>
+    <script>
+      function openImagePopup(imageUrl) {
+        window.open(imageUrl, '_blank', 'width=800,height=600');
+      }
+    </script>
+    
   </body>
 </html>
